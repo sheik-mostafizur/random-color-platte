@@ -7,8 +7,7 @@ const how_itemsDefault = document.querySelector(".how_items span");
 const color_platte_area = document.querySelector(".color_platte_area");
 const generate_colors = document.getElementById("generate_colors");
 
-let colorItem = 21;
-colorItem = getColorItems();
+let colorItem = getColorItems() ? getColorItems() : 21;
 
 setColorItems(colorItem);
 // how many items show

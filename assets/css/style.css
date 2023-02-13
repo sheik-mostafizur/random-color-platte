@@ -29,10 +29,10 @@ body {
 .how_items span {
   cursor: pointer;
   font-weight: bold;
-  background: #ffffff;
+  background: #ffe3e3;
   color: #212529;
   padding: 2px 4px;
-  border: 1px solid #b4b4b4;
+  border: 1px solid #fc9696;
 }
 
 /* color platte */

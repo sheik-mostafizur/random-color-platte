@@ -1,3 +1,7 @@
+window.onload = function () {
+  generateColorPlatte();
+};
+
 const how_items = document.querySelector(".how_items input");
 const how_itemsDefault = document.querySelector(".how_items span");
 const color_platte_area = document.querySelector(".color_platte_area");
@@ -54,7 +58,6 @@ function item(color) {
   return element;
 }
 
-
 // copyToClippedBoard
 
 function copyHexColorCode(el, colorCode) {
@@ -79,5 +82,5 @@ function generateColorPlatte() {
     color_platte_area.appendChild(item(randomColor));
   }
 }
-generateColorPlatte();
+
 generate_colors.addEventListener("click", generateColorPlatte);
